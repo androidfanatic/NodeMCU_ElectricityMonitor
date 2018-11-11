@@ -11,5 +11,14 @@
     "randomcolor": "^0.5.3",
     "sequelize": "^4.41.1",
     "sqlite3": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint . --fix"
   }
 }
