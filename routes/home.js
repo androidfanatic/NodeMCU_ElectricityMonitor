@@ -1,3 +1,14 @@
+const path = require('path');
+
 module.exports = (req, res) => {
-  res.sendFile(`${__dirname}/public/index.html`);
+  res.sendFile(
+    path.resolve(
+      path.join(
+        __dirname,
+        '..',
+        'public',
+        'index.html',
+      ),
+    ),
+  );
 };
