@@ -1,9 +1,9 @@
 {
-  "name": "esp_elec_monitor",
+  "name": "nodemcu_elec_monitor",
   "version": "1.0.0",
   "description": "elec monitor",
   "main": "app.js",
-  "author": "ManisRaj",
+  "author": "Manish Raj",
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",

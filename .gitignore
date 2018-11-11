@@ -77,3 +77,4 @@ typings/
 
 # custom files
 inmon.sh
+db.sqlite

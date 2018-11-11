@@ -5,7 +5,6 @@ const db = new Sequelize('db', null, null, {
   storage: 'db.sqlite',
 });
 
-db.sync()
-  .then(() => {});
+db.sync().then(() => {});
 
 module.exports = db;

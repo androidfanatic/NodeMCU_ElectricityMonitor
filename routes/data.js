@@ -3,9 +3,10 @@ const moment = require('moment');
 const randomColor = require('randomcolor');
 const Ping = require('../models/ping');
 
+const TIME_MX = 1000;
+const TIME_BIT = 5 * 60 * TIME_MX;
+
 module.exports = (req, res) => {
-  const TIME_MX = 1000;
-  const TIME_BIT = 5 * 60 * TIME_MX;
   const time = moment().utcOffset('+05:30');
   time.set({
     hour: 0, minute: 0, second: 0, millisecond: 0,
