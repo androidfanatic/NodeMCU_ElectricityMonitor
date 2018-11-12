@@ -6,6 +6,7 @@
   "author": "Manish Raj",
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.7.3",
     "express": "^4.16.4",
     "moment": "^2.22.2",
     "randomcolor": "^0.5.3",
