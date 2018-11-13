@@ -1,5 +1,7 @@
 ## NodeMCU home electricity monitoring
 
+<img src="screen.png" alt="Screenshot" />
+
 ### Scripts:
 
 Develop:
